@@ -3,6 +3,7 @@ from interpolate import interpolate
 
 # calculate vector e for each update (it is summing values of product
 #(I-J)grad(I) on specific region)
+#additional comment
 def getE (I, J, dx, dy, d, point, window_size):
     e = np.array([[0], [0]])
     for x in xrange(point[0]-window_size[0]/2, point[0]+window_size[0]/2+1):
