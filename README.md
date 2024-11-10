@@ -1,5 +1,6 @@
-This code is used for tracking the region of interest (ROI) in the video
+# This code is used for tracking the region of interest (ROI) in the video
 
+### Instructions
 Code
 testKLT.py - testing image alignment for view0.png and view1.png
 myROI_tracker.py - track ROI(manually selected) using implemented algorithm
